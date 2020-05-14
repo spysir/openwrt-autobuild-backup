@@ -14,4 +14,5 @@
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/weweyes/openwrt-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/weweyes/openwrt-packages' feeds.conf.default
+# Add passwall dependency package
 sed -i '$a src-git small https://github.com/weweyes/small' feeds.conf.default
