@@ -16,4 +16,4 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-ap
 git clone https://github.com/weweyes/luci-app-eqos.git package/lean/luci-app-eqos
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-app-oaf
 git clone https://github.com/weweyes/luci-app-passwall.git package/lean/luci-app-passwall
-git clone https://github.com/weweyes/small.git package/
+git clone https://github.com/weweyes/small.git package/small
