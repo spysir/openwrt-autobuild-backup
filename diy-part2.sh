@@ -17,3 +17,4 @@ git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-app-oaf
 git clone https://github.com/weweyes/luci-app-passwall.git package/lean/luci-app-passwall
 git clone https://github.com/weweyes/small.git package/lean/small
+git clone https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
