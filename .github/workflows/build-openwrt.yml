@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt20200522
+name: Build OpenWrt20200524
 
 on:
   repository_dispatch:
