@@ -18,6 +18,6 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-app-oa
 git clone https://github.com/weweyes/luci-app-passwall.git package/lean/luci-app-passwall
 git clone https://github.com/weweyes/small.git package/lean/small
 
-#svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
-#svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
-#svn co https://github.com/weweyes/openwrt-packages/trunk/luci-app-smartdns package/lean/luci-app-smartdns
+svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
+svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
+svn co https://github.com/weweyes/openwrt-packages/trunk/luci-app-smartdns package/lean/luci-app-smartdns
