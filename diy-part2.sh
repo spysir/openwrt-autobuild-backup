@@ -20,4 +20,4 @@ git clone https://github.com/weweyes/small.git package/lean/small
 
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
-svn co https://github.com/weweyes/openwrt-packages/trunk/luci-app-smartdns package/lean/luci-app-smartdns
+
