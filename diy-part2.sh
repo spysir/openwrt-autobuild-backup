@@ -22,4 +22,4 @@ git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
-
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/lean/luci-app-smartdns
