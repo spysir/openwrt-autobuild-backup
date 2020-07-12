@@ -14,7 +14,7 @@ on:
     types: published
   push:
     branches:
-      - master
+      - dev-master
     paths:
       - '.config'
 #  schedule:
