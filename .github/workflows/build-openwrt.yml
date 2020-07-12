@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: Build lienol-OpenWrt
 
 on:
   repository_dispatch:
@@ -23,8 +23,8 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/weweyes/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/weweyes/openwrt
+  REPO_BRANCH: dev-master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
