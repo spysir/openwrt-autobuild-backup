@@ -13,8 +13,8 @@ sed -i 's/192.168.1.1/192.168.8.5/g' package/base-files/files/bin/config_generat
 # add app
 git clone https://github.com/weweyes/OpenClash.git package/luci-app-openclash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/littletao08/luci-app-eqos.git package/luci-app-eqos
-git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
+git clone https://github.com/weweyes/luci-app-eqos.git package/luci-app-eqos
+git clone https://github.com/weweyes/OpenAppFilter.git package/luci-app-oaf
 #git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 
 
