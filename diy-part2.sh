@@ -18,5 +18,5 @@ git clone https://github.com/weweyes/OpenAppFilter.git package/luci-app-oaf
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/luci-app-smartdns
 
 # add theme
-svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
-
+svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
+#git clone -b 18.06 https://github.com/weweyes/luci-theme-argon.git package/luci-theme-argon
