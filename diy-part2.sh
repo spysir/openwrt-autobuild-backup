@@ -15,8 +15,8 @@ git clone https://github.com/weweyes/OpenClash.git package/luci-app-openclash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/weweyes/luci-app-eqos.git package/luci-app-eqos
 git clone https://github.com/weweyes/OpenAppFilter.git package/luci-app-oaf
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/luci-app-smartdns
 
-
-svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
+# add theme
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/lean/luci-app-smartdns
+
