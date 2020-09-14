@@ -71,9 +71,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-        cd package/lean  
-        rm -rf luci-theme-argon  
-        git clone -b 18.06 https://github.com/weweyes/luci-theme-argon.git
+        
        
 
     - name: Update feeds
@@ -89,7 +87,11 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-
+        
+        cd package/lean  
+        rm -rf luci-theme-argon  
+        
+        
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@master
       if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')
