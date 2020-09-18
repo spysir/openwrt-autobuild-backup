@@ -34,3 +34,4 @@ svn co https://github.com/weweyes/openwrt-packages/trunk/luci-app-aliddns packag
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
 git clone https://github.com/weweyes/luci-app-argon-config.git package/luci-app-argon-config
 git clone -b 18.06 https://github.com/weweyes/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/weweyes/openwrt-themes.git package/openwrt-themes
