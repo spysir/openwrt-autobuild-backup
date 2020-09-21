@@ -15,7 +15,7 @@
 #sed -i '$a src-git kenzo https://github.com/weweyes/openwrt-packages' feeds.conf.default
 
 # Add app
-git clone https://github.com/weweyes/OpenClash.git package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/weweyes/luci-app-eqos.git package/luci-app-eqos
 git clone https://github.com/weweyes/OpenAppFilter.git package/luci-app-oaf
