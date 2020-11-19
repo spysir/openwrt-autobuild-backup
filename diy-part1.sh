@@ -21,7 +21,7 @@ git clone https://github.com/weweyes/luci-app-eqos.git package/luci-app-eqos
 git clone https://github.com/weweyes/OpenAppFilter.git package/luci-app-oaf
 git clone https://github.com/weweyes/luci-app-tcpdump.git package/luci-app-tcpdump
 
-#git clone https://github.com/jerrykuku/node-request.git package/node-request
+
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
@@ -31,7 +31,7 @@ svn co https://github.com/weweyes/openwrt-packages/trunk/luci-app-adguardhome pa
 svn co https://github.com/weweyes/openwrt-packages/trunk/luci-app-aliddns package/luci-app-aliddns
 
 # Add theme
-svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
+#svn co https://github.com/weweyes/openwrt-packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
 git clone https://github.com/weweyes/luci-app-argon-config.git package/luci-app-argon-config
 git clone -b 18.06 https://github.com/weweyes/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/weweyes/openwrt-themes.git package/openwrt-themes
