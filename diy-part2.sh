@@ -11,3 +11,5 @@
 sed -i 's/192.168.1.1/192.168.8.5/g' package/base-files/files/bin/config_generate
 # Change default theme to luci-thme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+# 内核显示增加自己个性名称（XPK build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些为后期增加）
+sed -i "s/OpenWrt /XPK build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/default-settings/files/zzz-default-settings
