@@ -6,7 +6,7 @@
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
-#
+#在run workflow中把SSH connection to Actions值改为true即可开启SSH，默认false为关闭SSH
 
 name: x64
 
