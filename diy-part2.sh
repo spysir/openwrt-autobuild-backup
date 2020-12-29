@@ -7,7 +7,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #============================================================
-# Modify default IP (admin IP=192.168.8.5 user=root pw=password)
+# Modify default admin IP 
 sed -i 's/192.168.1.1/192.168.8.5/g' package/base-files/files/bin/config_generate
 # Change default theme to luci-theme-opentopd
 sed -i 's/luci-theme-bootstrap/luci-theme-opentopd/g' ./feeds/luci/collections/luci/Makefile
