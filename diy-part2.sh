@@ -11,7 +11,7 @@
 sed -i 's/192.168.1.1/192.168.8.5/g' package/base-files/files/bin/config_generate
 # Change default theme to luci-theme-opentopd
 sed -i 's/luci-theme-bootstrap/luci-theme-opentopd/g' ./feeds/luci/collections/luci/Makefile
-# 版本号里显示一个自己的名字和编译日期（XPK build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
+# 固件版本里面添加自己的名字和编译日期（XPK build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 sed -i "s/OpenWrt /XPK build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 # Set the password to be empty
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
